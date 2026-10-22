@@ -1,0 +1,16 @@
+node_modules/
+dist/
+coverage/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+supabase/.temp/
+supabase/.branches/
+.vscode/*
+!.vscode/extensions.json
+
+# Real bank details — never commit
+supabase/private/*
+!supabase/private/*.example.sql
